@@ -1,0 +1,21 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore environment and virtual environments
+.env
+.env.*
+venv/
+*.venv
+Pipfile
+Pipfile.lock
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore token and credentials files
+token.txt
+
+# Ignore logs
+*.log
